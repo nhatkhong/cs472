@@ -1,0 +1,32 @@
+/* aboutme.css*/
+
+body {
+    background-color: #5c5444;
+    color: whitesmoke;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+hr {
+    outline-style: hidden;
+}
+
+h1, h2, h3 {
+    color: #9ac3fa;
+}
+
+ul, ol, p {
+    font-size: smaller;
+}
+
+.italic_text {
+    font-style: italic;
+}
+
+.important_text {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.link{
+    color: red;
+}
