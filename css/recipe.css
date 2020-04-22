@@ -15,9 +15,9 @@ body {
 h1, h2 {
 	color: #A4A400;
 	background-color: #F0F0F0;
-	font-family: Century Gothic, Futura, Verdana, sans-serif;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 	text-decoration: underline;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.25em;
 	font-weight: bold;
 }
 
@@ -29,6 +29,7 @@ h1 {
 h2 {
 	font-size: 18pt;
 	font-weight: normal;
+	text-align: left;
 }
 
 /*links style*/
@@ -64,6 +65,21 @@ blockquote {
 	font-style: italic;
 }
 
+/*abbreviation style*/
+abbr {
+	text-decoration: underline;
+}
+
+/*footer style*/
 footer {
 	text-align: right;
+}
+
+/*specific class style*/
+.deleted_text {
+	text-decoration: line-through;
+}
+
+.bold_text {
+	font-weight: bold;
 }

@@ -9,3 +9,8 @@ body {
 hr {
     box-shadow: dimgray;
 }
+
+/*footer style*/
+footer {
+    text-align: right;
+}
