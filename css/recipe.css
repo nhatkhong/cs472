@@ -6,7 +6,7 @@ body {
 	margin-right: auto;
 	color: #404040;
 	font:11pt Georgia, Garamond, serif;
-	background-image: url("images/silverware.jpg");
+	background-image: url("../images/silverware.jpg");
 	background-repeat: repeat;
 	background-attachment: fixed;
 }
@@ -56,7 +56,7 @@ ul.nostyle {
 }
 
 ul {
-	list-style-image: url("images/pie_icon.gif");
+	list-style-image: url("../images/pie_icon.gif");
 }
 
 /*quote style*/
