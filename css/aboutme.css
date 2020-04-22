@@ -42,13 +42,13 @@ p:first-letter {
     font-size: 1.5em;
 }
 
-.movie_info {
+.movie_feature {
     list-style-type: none;
     font-weight: bold;
     color: yellow;
 }
 
-.movie_detail {
+.movie_feature_detail {
     list-style-type: none;
     font-size: 1.0em;
 }
