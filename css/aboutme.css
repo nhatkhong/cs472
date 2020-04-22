@@ -43,14 +43,15 @@ p:first-letter {
 }
 
 .movie_feature {
+    color: yellow;
     list-style-type: none;
     font-weight: bold;
-    color: yellow;
+    font-size: 0.9em;
 }
 
 .movie_feature_detail {
     list-style-type: none;
-    font-size: 1.0em;
+    font-size: 0.9em;
 }
 
 ol {
