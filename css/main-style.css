@@ -5,3 +5,7 @@ body {
     color: whitesmoke;
     font-family: "Trebuchet MS", sans-serif;
 }
+
+hr {
+    box-shadow: dimgray;
+}

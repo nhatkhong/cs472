@@ -1,9 +1,9 @@
 /* aboutme.css*/
 
 body {
-    background-color: #5c5444;
+    background-color: #5c5445;
     color: whitesmoke;
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: Verdana, "Trebuchet MS", sans-serif;
 }
 
 hr {
@@ -12,10 +12,12 @@ hr {
 
 h1, h2, h3 {
     color: #9ac3fa;
+
 }
 
 ul, ol, p {
     font-size: smaller;
+    font-family: Verdana;
 }
 
 .italic_text {
@@ -29,4 +31,33 @@ ul, ol, p {
 
 .link{
     color: red;
+    text-decoration:none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+p:first-letter {
+    font-size: 1.5em;
+}
+
+.movie_info {
+    list-style-type: none;
+    font-weight: bold;
+    color: yellow;
+}
+
+.movie_detail {
+    list-style-type: none;
+    font-size: 1.0em;
+}
+
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ol li {
+    flex: 0 0 auto;
 }
