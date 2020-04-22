@@ -4,12 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Van Nhat Khong</title>
-    <link rel="stylesheet" href="css/main-style.css">
-    <style>
-        p {
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
@@ -18,12 +13,15 @@
             <a href="aboutme.html">About me</a> |
             <a href="resume.html">Resume</a>
         </nav>
-        <hr>
+        <hr />
+        <div class="timeline">
+            <h1>VAN NHAT KHONG - Works with data to add values</h1>
+            <img class="background" src="images/background.jpg" alt="background">
+        </div>
     </header>
     <main>
-        <div class="container">
-            <img src="images/portrait.png" alt="my avatar">
-            <h1>VAN NHAT KHONG</h1>
+        <div class="content">
+            <h2>Table of contents</h2>
             <ul>
                 <li><a href="index.html">Lab 1 - Homepage</a></li>
                 <li><a href="aboutme.html">Lab 2.1 - About me</a></li>
@@ -47,20 +45,29 @@
         </div>
     </main>
     <footer>
-        <p>
-            <a href="https://validator.w3.org/check/referer">
-                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="html validator"/>
-            </a>
-            <a href="https://validator.w3.org/check/referer">
-                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/>
-            </a>
-        </p>
-        <p>
-            Copyright © 2012 Granny's Pies |<br />
-            A Granny's Pies Production     |<br />
-            All rights reserved            |<br />
-
-        </p>
+        <div class="row">
+            <div class="column">
+                <div class="footer-text">
+                    <p>
+                        Van Nhat Khong<br />
+                        vkhong@miu.edu<br />
+                        Maharishi International University<br />
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="validators">
+                    <p>
+                        <a href="https://validator.w3.org/check/referer">
+                            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="html validator"/>
+                        </a>
+                        <a href="https://validator.w3.org/check/referer">
+                            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
