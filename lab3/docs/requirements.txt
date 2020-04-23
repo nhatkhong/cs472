@@ -1,0 +1,31 @@
+Grading rubric for Movie Review (CSS Layout) Homework
+Is the page on your website with link on your homepage and link in the submission textarea?
+Are the HTML and CSS validators present and do they succeed?
+Is the CSS code neat and orderly--not a lot of redundancy?
+Is there a comment header in each file with name and brief description of the file contents?
+No styling in the HTML file?
+Is the page appearance close to the specified image?
+  - 2 columns for comments
+  - centered overall content area
+  - image banner on top
+Interesting and descriptive comment.  At least 2 sentences.
+[IMPORTANT:  place this status comment as a comment in your HTML page on your website.]
+
+For full credit, your page must use valid HTML5 and successfully pass the W3C HTML5 validator. Do not express
+style information in the HTML, such as inline styles or presentational HTML tags such as b or font.
+Express all stylistic information on the page using CSS defined in movie.css. The majority of the points for this
+assignment will be for the movie.css file. For full credit, your style sheet must successfully pass the W3C CSS
+validator. Part of your grade comes from expressing your CSS concisely and without unnecessary or redundant
+styles. For example, the two main columns of reviews share many (if not all) styles in common, so you should not
+specify those styles twice in your CSS file. As another example, if the page uses the same color or font family for
+multiple elements, group those elements into a single CSS rule, so that it would be possible to change the page's
+color/font by modifying a single place in the CSS. Use context selectors to avoid needing to apply classes and IDs
+to large numbers of elements. Limit the use of absolute and fixed positioning on this assignment. Do not use
+HTML or CSS constructs past Chapter 4 of the textbook, and do not use HTML tables.
+
+Place a comment
+header in each file with your name, section, a brief description of the assignment, and the file's contents.
+
+To keep line lengths manageable, do not
+place more than one block element on the same line or begin a block element past the 100th character on a line. For
+reference, our solution has roughly 130 lines of CSS (85 "substantive"), but you do not need to match this exactly
