@@ -29,3 +29,8 @@ header in each file with your name, section, a brief description of the assignme
 To keep line lengths manageable, do not
 place more than one block element on the same line or begin a block element past the 100th character on a line. For
 reference, our solution has roughly 130 lines of CSS (85 "substantive"), but you do not need to match this exactly
+
+We will provide you a skeleton of tmnt.html with the page contents, but no page sections or styles. The only
+modifications you should make are to divide it into sections using div/span tags, and add id and class attributes.
+You should also replace the last two "YOUR REVIEW HERE" reviews with text of your choice. (You are also
+allowed to add the HTML necessary to enable the "favorites icon" or "favicon" specified on the next page.)
