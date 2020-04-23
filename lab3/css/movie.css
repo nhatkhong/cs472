@@ -1,3 +1,13 @@
+/*
+Developer: VAN NHAT KHONG
+Date: April 23, 2020
+Description: This is CSS file for tmnt.html file which apply box model to divide different part of information on the
+website.
+For making columns, grid has been used together with float.
+The styling is applied to each part of the website based on structure from HTML file.
+
+*/
+
 body {
     background-image: url("../images/background.png");
     font-family: Verdana, Tahoma, sans-serif;
