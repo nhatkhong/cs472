@@ -6,104 +6,108 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/webform2.js" type="text/javascript"></script>
+    <script src="js/webform2.js"></script>
     <link href="css/webform2.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-<div class="nav-bar">
-    <a>MUM Golden Dorm Market ::: SRM System</a>
-    <a href="#home" class="active">Products</a>
-    <a href="#home" class="active">Suppliers</a>
+    <header>
+        <div class="nav-bar">
+            <a>MUM Golden Dorm Market ::: SRM System</a>
+            <a href="#home" class="active">Products</a>
+            <a href="#home" class="active">Suppliers</a>
 
-    <div class="logout">
-        <span class="userName">Hello!</span><input class="logout-btn" type="submit" value="Sign Out">
-    </div>
-
-</div>
-<div class="container">
-    <div class="title">New Product Form</div>
-    <form method="GET">
-        <div class="row">
-            <div class="column">
-                <div class="textbox">
-                    <div class="label">
-                        <label for="productNumber">Product Number</label><br>
-                    </div>
-                    <input type="text" id="productNumber" name="productNumber"><br>
-                </div>
-                <div class="textbox">
-                    <div class="label">
-                        <label for="name">Name</label><br>
-                    </div>
-                    <input type="text" id="name" name="name"><br>
-                </div>
-                <div class="textbox">
-                    <div class="label">
-                        <label for="unitPirce">Unit Price</label><br>
-                    </div>
-                    <input type="number" placeholder="0.0" step="0.1" id="unitPirce" name="unitPirce"><br>
-                </div>
-                <div class="textbox">
-                    <div class="url">
-                        <label for="url">URL</label><br>
-                    </div>
-                    <input type="text" id="url" name="url" pattern="https?://.+" title="Please enter URL" placeholder="Enter URL"><br>
-                </div>
-            </div>
-            <div class="column">
-                <div class="textbox">
-                    <div class="label">
-                        <label for="quantity">Quantity in stock</label><br>
-                    </div>
-                    <input type="number" placeholder="0" step="1" id="quantity" name="quantity"><br>
-                </div>
-                <div class="textbox">
-                    <div class="label">
-                        <label for="supplier">Supplier</label><br>
-                    </div>
-                    <select id="supplier" name="quantity">
-                        <option value="volvo">Select a supplier</option>
-                    </select>
-                </div>
-                <div class="textbox">
-                    <div class="label">
-                        <label for="date">Date Supplied</label><br>
-                    </div>
-                    <input type="date" id="date" name="date">
-
-                </div>
-            </div>
-
-        </div>
-
-        <div>
-            <div class="wrapper_button">
-                <div class="textbox">
-                    <input class="btn reset-btn" type="submit" value="Reset">
-                </div>
-                <div class="textbox">
-                    <input class="btn cancel-btn" type="submit" value="Cancel">
-                </div>
-                <div class="textbox">
-                    <input id="btnSubmit" class="btn addproduct-btn" type="submit" value="Add Product">
-                </div>
+            <div class="logout">
+                <span class="userName">Hello!</span><input class="logout-btn" type="submit" value="Sign Out">
             </div>
         </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="title">New Product Form</div>
+            <form method="GET">
+                <div class="row">
+                    <div class="column">
+                        <div class="textbox">
+                            <div class="label">
+                                <label for="productNumber">Product Number</label><br>
+                            </div>
+                            <input type="text" id="productNumber" name="productNumber"><br>
+                        </div>
+                        <div class="textbox">
+                            <div class="label">
+                                <label for="name">Name</label><br>
+                            </div>
+                            <input type="text" id="name" name="name"><br>
+                        </div>
+                        <div class="textbox">
+                            <div class="label">
+                                <label for="unitPirce">Unit Price</label><br>
+                            </div>
+                            <input type="number" placeholder="0.0" step="0.1" id="unitPirce" name="unitPirce"><br>
+                        </div>
+                        <div class="textbox">
+                            <div class="url">
+                                <label for="url">URL</label><br>
+                            </div>
+                            <input type="text" id="url" name="url" pattern="https?://.+" title="Please enter URL" placeholder="Enter URL"><br>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="textbox">
+                            <div class="label">
+                                <label for="quantity">Quantity in stock</label><br>
+                            </div>
+                            <input type="number" placeholder="0" step="1" id="quantity" name="quantity"><br>
+                        </div>
+                        <div class="textbox">
+                            <div class="label">
+                                <label for="supplier">Supplier</label><br>
+                            </div>
+                            <select id="supplier" name="quantity">
+                                <option value="volvo">Select a supplier</option>
+                            </select>
+                        </div>
+                        <div class="textbox">
+                            <div class="label">
+                                <label for="date">Date Supplied</label><br>
+                            </div>
+                            <input type="date" id="date" name="date">
 
-    </form>
-</div>
-<footer>
-    <div class="copyright">
-        <div class="check-error">
-            <a href="https://validator.w3.org/check/referer">
-                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator"/>
-            </a>
-            <a href="https://validator.w3.org/check/referer">
-                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="wrapper_button">
+                        <div class="textbox">
+                            <input class="btn reset-btn" type="submit" value="Reset">
+                        </div>
+                        <div class="textbox">
+                            <input class="btn cancel-btn" type="submit" value="Cancel">
+                        </div>
+                        <div class="textbox">
+                            <input id="btnSubmit" class="btn addproduct-btn" type="submit" value="Add Product">
+                        </div>
+                    </div>
+                </div>
+
+            </form>
         </div>
-    </div>
-</footer>
+    </main>
+    <footer>
+        <div class="copyright">
+            <div class="check-error">
+                <a href="https://validator.w3.org/check/referer">
+                    <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator"/>
+                </a>
+                <a href="https://validator.w3.org/check/referer">
+                    <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
