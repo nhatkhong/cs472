@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/webform1.js" type="text/javascript"></script>
+    <link href="css/webform1.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="container">
+    <form method="GET">
+        <div class="textbox">
+            <div class="label">
+                <label for="email">Email Address</label><br>
+            </div>
+            <input type="text" id="email" name="email" placeholder="Enter Email"><br>
+            <span>We'll never share your email with anyone else.</span>
+        </div>
+        <div class="textbox">
+            <div class="label">
+                <label for="password">Password</label><br>
+            </div>
+            <input id="password" name="password" type="password" placeholder="Enter Password"
+                   pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$"
+                   title="Password must contain at least 10 characters, one upper case, one lower case letter and one number"
+                   ><br>
+        </div>
+        <div class="textbox">
+            <div class="label">
+                <label for="url">URL</label><br>
+            </div>
+            <input id="url" name="url" type="text" placeholder="Enter URL"
+                   pattern="https?://.+"
+                   title="Please enter URL"><br>
+        </div>
+        <div class="textbox">
+            <input type="checkbox" id="checkMe" name="checkMe">
+            <label for="checkMe">Checks me out</label>
+        </div>
+        <div class="textbox">
+            <input id="submit" type="submit" value="Submit">
+        </div>
+    </form>
+</div>
+<footer>
+    <div class="copyright">
+        <div class="check-error">
+            <a href="https://validator.w3.org/check/referer">
+                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator"/>
+            </a>
+            <a href="https://validator.w3.org/check/referer">
+                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
