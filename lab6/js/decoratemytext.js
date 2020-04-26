@@ -9,8 +9,9 @@ Below are solutions for lab 6
 
 const pageLoad = () => {
     document.getElementById("biggerDecoration").onclick = biggerSetInterval;
-    document.getElementById("toPigLatin").onclick = toPigLatin;
-    document.getElementById("checkMe").onchange = bling;
+    document.getElementById("igpay-atinlay").onclick = toPigLatin;
+    document.getElementById("malkovitch").onclick = toMalkovich;
+    document.getElementById("bling").onchange = checkOnChange;
 }
 
 let timer = null; // stores ID of interval timer
@@ -26,35 +27,70 @@ const biggerSetInterval = () => {
 
 const biggerFont = () => {
     let newFont = currentFontSize() + 2 + "pt";
-    document.getElementById("textDecorator").style.fontSize = newFont;
+    document.getElementById("textArea").style.fontSize = newFont;
     //document.getElementById("textDecorator").style.fontSize = "4em";
 }
 
 const currentFontSize = () => {
     let style = window.getComputedStyle(document
-        .getElementById("textDecorator"), null)
+        .getElementById("textArea"), null)
         .getPropertyValue('font-size');
     return parseInt(style);
 }
 
-const bling = () => {
+const checkOnChange = () => {
     //alert("Bliiiiiiinggggg");
-    if (document.getElementById("checkMe").checked) {
-        document.getElementById("textDecorator").style.fontWeight = "bold";
-        document.getElementById("textDecorator").style.color = "green";
-        document.getElementById("textDecorator").style.textDecoration = "underline";
-        document.getElementById('hundredDollar').style.visibility = 'visible';
+    if (document.getElementById("bling").checked) {
+        document.getElementById("textArea").style.fontWeight = "bold";
+        document.getElementById("textArea").style.color = "green";
+        document.getElementById("textArea").style.textDecoration = "underline";
+        document.body.style.backgroundImage = "url(images/hundred-dollar-bill.jpg)";
     }
     else {
-        document.getElementById("textDecorator").style.fontWeight = "normal";
-        document.getElementById("textDecorator").style.color = "black";
-        document.getElementById("textDecorator").style.textDecoration = "none";
-        document.getElementById('hundredDollar').style.visibility = 'collapse';
+        document.getElementById("textArea").style.fontWeight = "normal";
+        document.getElementById("textArea").style.color = "black";
+        document.getElementById("textArea").style.textDecoration = "none";
+        document.body.style.backgroundImage = "";
     }
 }
 
 const toPigLatin = () => {
-    
+    let lines = document.getElementById("textArea").value.trim().split("\n");
+    let newText = "";
+    let newLine;
+    const vowels = "aeiouAEIOU";
+    for (let line of lines) {
+        let words = line.trim().split(" ");
+        for (let i in words) {
+            if (!words[i].localeCompare(" ") && vowels.indexOf(words[i].charAt(0))>-1) {
+                words[i] = (words[i].substring(1) + words[i].charAt(0) + "ay");
+            }
+            else {
+                words[i] += "ay";
+            }
+        }
+        newLine = words.join(" ") + "\n";
+        newText += newLine;
+    }
+    document.getElementById("textArea").value = newText;
+}
+
+const toMalkovich = () => {
+    let lines = document.getElementById("textArea").value.trim().split("\n");
+    let newText = "";
+    let newLine;
+    for (let line of lines) {
+        let words = line.split(" ");
+        newLine = "";
+        for (let i in words) {
+            if (words[i].length >= 5) {
+                words[i] = "Malkovich";
+            }
+        }
+        newLine = words.join(" ") + "\n";
+        newText += newLine;
+    }
+    document.getElementById("textArea").value = newText;
 }
 
 window.onload = pageLoad;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Text Decorator</title>
 		<link href="css/decoratemytext.css" type="text/css" rel="stylesheet" />
@@ -16,29 +16,55 @@
 	</head>
 
 	<body>
-		<h1>Text Decorator</h1>
-		
-		<div>
-			<img src="images/decorated.gif" alt="very decorated!" />
-		</div>
+        <div class="container">
+            <h1>Text Decorator</h1>
 
-		<!-- Your UI controls go here -->
-        <fieldset style="width:40%;">
-            <legend> Text </legend>
-            <textarea name="textDecorator" id="textDecorator" rows="4" cols="30">
-                Sample item 1
-                Sample item 2
-			</textarea>
-        </fieldset>
-        <fieldset style="width:40%;">
-            <legend> Decoration </legend>
-            <div class="decoration">
-                <button id="biggerDecoration">Bigger Decorations!</button><br>
-                <button id="toPigLatin">To Pig Latin</button><br>
-                <input type="checkbox" id="checkMe" name="checkMe">
-                <label for="checkMe">Bling</label>
+            <div>
+                <img src="images/decorated.gif" alt="very decorated!" />
             </div>
-        </fieldset>
-        <img id="hundredDollar" src="images/hundred-dollar-bill.jpg" alt="Hundred dollar bill" />
+
+            <!-- Your UI controls go here -->
+            <fieldset>
+                <legend> Text </legend>
+                <textarea name="textArea" id="textArea" rows="4" cols="30">Sample item 1
+                    Sample item 2
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <legend> Decoration </legend>
+                <div class="decoration">
+                    <button id="biggerDecoration">Bigger Decorations!</button>
+                    <button id="igpay-atinlay">Igpay Atinlay</button>
+                    <button id="malkovitch">Malkovitch</button>
+                    <input type="checkbox" id="bling" name="bling">
+                    <label for="bling">Bling</label>
+                </div>
+            </fieldset>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="column">
+                    <div class="footer-text">
+                        <p>
+                            Van Nhat Khong<br />
+                            vkhong@miu.edu<br />
+                            Maharishi International University<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="validators">
+                        <p>
+                            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator"/>
+                            </a>
+                            <a href="https://validator.w3.org/check/referer">
+                                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 	</body>
 </html>
