@@ -1,0 +1,18 @@
+#clock {
+    margin-left: 100px;
+    margin-top: 300px;
+    font-weight: bold;
+    font-size: 120px;
+    color: #ea6706;
+    border: 5px solid gray;
+    padding: 5px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.validators {
+    display: flex;
+    flex-direction: column;
+}
