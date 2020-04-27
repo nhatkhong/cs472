@@ -1,15 +1,22 @@
+/*jshint esversion: 6 */
+/*jslint browser: true */
+/*global window */
+
 /*
 Developer: Van Nhat Khong
 Date: April 25, 2020
 
 Below are solutions for lab 5 - question 14 - New Product form
 */
-"use strict";
+
+
 const pageLoad = () => {
+    "use strict";
     document.getElementById("btnSubmit").onclick = submit;
 }
 
 const submit = () => {
+    "use strict";
     const productNumber = document.getElementById("productNumber").value;
     const name = document.getElementById("name").value
     const unitPrice = document.getElementById("unitPrice").value

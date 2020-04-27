@@ -1,3 +1,7 @@
+/*jshint esversion: 6 */
+/*jslint browser: true */
+/*global window */
+
 /*
 Developer: Van Nhat Khong
 Date: April 26, 2020
@@ -5,17 +9,19 @@ Date: April 26, 2020
 Below are solutions for lab 6
 */
 
-"use strict";
+
 
 const pageLoad = () => {
+    "use strict";
     document.getElementById("biggerDecoration").onclick = biggerSetInterval;
     document.getElementById("igpay-atinlay").onclick = toPigLatin;
     document.getElementById("malkovitch").onclick = toMalkovich;
     document.getElementById("bling").onchange = checkOnChange;
-}
+};
 
 let timer = null; // stores ID of interval timer
 const biggerSetInterval = () => {
+    "use strict";
     let currentSize = currentFontSize();
     if (timer === null && currentSize < 20) {
         timer = setInterval(biggerFont, 500);
@@ -23,23 +29,25 @@ const biggerSetInterval = () => {
         clearInterval(timer); // cancel the timer
         timer = null;
     }
-}
+};
 
 const biggerFont = () => {
-    let newFont = currentFontSize() + 2 + "pt";
-    document.getElementById("textArea").style.fontSize = newFont;
+    "use strict";
+    document.getElementById("textArea").style.fontSize = currentFontSize() + 2 + "pt";
     //document.getElementById("textDecorator").style.fontSize = "4em";
-}
+};
 
 const currentFontSize = () => {
+    "use strict";
     let style = window.getComputedStyle(document
         .getElementById("textArea"), null)
         .getPropertyValue('font-size');
     return parseInt(style);
-}
+};
 
 const checkOnChange = () => {
     //alert("Bliiiiiiinggggg");
+    "use strict";
     if (document.getElementById("bling").checked) {
         document.getElementById("textArea").style.fontWeight = "bold";
         document.getElementById("textArea").style.color = "green";
@@ -52,9 +60,10 @@ const checkOnChange = () => {
         document.getElementById("textArea").style.textDecoration = "none";
         document.body.style.backgroundImage = "";
     }
-}
+};
 
 const toPigLatin = () => {
+    "use strict";
     let lines = document.getElementById("textArea").value.trim().split("\n");
     let newText = "";
     let newLine;
@@ -73,9 +82,10 @@ const toPigLatin = () => {
         newText += newLine;
     }
     document.getElementById("textArea").value = newText;
-}
+};
 
 const toMalkovich = () => {
+    "use strict";
     let lines = document.getElementById("textArea").value.trim().split("\n");
     let newText = "";
     let newLine;
@@ -91,6 +101,6 @@ const toMalkovich = () => {
         newText += newLine;
     }
     document.getElementById("textArea").value = newText;
-}
+};
 
 window.onload = pageLoad;
