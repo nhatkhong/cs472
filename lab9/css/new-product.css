@@ -1,0 +1,147 @@
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: #212529;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textbox {
+    margin: 20px;
+    width: 100%;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.textbox input {
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 17px;
+}
+
+.nav-bar {
+    background-color: #38a8e8;
+    overflow: hidden;
+}
+
+.nav-bar a,
+input {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.textbox {
+    margin: 10px;
+}
+
+.nav-bar a {
+    border-right: 2px solid #c3e3f7;
+    color: white;
+}
+
+.nav-bar .logout {
+    float: right;
+    padding: 8px 20px 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logout>span {
+    margin-right: 20px;
+    color: white;
+}
+
+.logout-btn {
+    border: 1px solid #f7f7f9;
+    border-radius: .25rem;
+    background-color: #f7f7f9;
+    padding: .375rem .75rem;
+    color: #a8acb0;
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    align-items: center;
+    padding: 10px;
+    margin-right: 40px;
+    max-width: 100%;
+}
+
+.title {
+    color: #7f8387;
+    font-size: 40px;
+}
+
+.wrapper_button {
+    display: inline-flex;
+    float: right;
+    margin-right: 40px;
+}
+
+.btn {
+    background-color: white;
+}
+
+.btn.reset-btn {
+    color: #8ea3bc;
+    border: 1px solid #8ea3bc;
+}
+
+.btn.cancel-btn {
+    color: #eeac88;
+    border: 1px solid #eeac88;
+}
+
+.btn.addproduct-btn {
+    color: #a1d3f3;
+    border: 1px solid #a1d3f3;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.check-error {
+    display: flex;
+    flex-direction: column;
+}

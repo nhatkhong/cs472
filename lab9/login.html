@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery/jquery-3.5.0.js"></script>
+    <script src="js/login.js"></script>
+    <title>Login</title>
+    <link href="css/login.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Inheritance and jQuery</h1>
+        <div class="nav-bar">
+            <a href="lab9.html">Lab9</a>
+            <a href="login.html">Login Form</a>
+            <a href="new-product.html">New Product Form</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form method="POST">
+                <div class="textbox">
+                    <div class="label">
+                        <label for="email">Email Address</label><br>
+                    </div>
+                    <input type="text" id="email" name="email" placeholder="Enter Email"><br>
+                    <span>We'll never share your email with anyone else.</span>
+                </div>
+                <div class="textbox">
+                    <div class="label">
+                        <label for="password">Password</label><br>
+                    </div>
+                    <input id="password" name="password" type="password" placeholder="Enter Password"
+                           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$"
+                           title="Password must contain at least 10 characters, one upper case, one lower case letter and one number"
+                           ><br>
+                </div>
+                <div class="textbox">
+                    <div class="label">
+                        <label for="url">URL</label><br>
+                    </div>
+                    <input id="url" name="url" type="text" placeholder="Enter URL"
+                           pattern="https?://.+"
+                           title="Please enter URL"><br>
+                </div>
+                <div class="textbox">
+                    <input type="checkbox" id="checkMe" name="checkMe">
+                    <label for="checkMe">Checks me out</label>
+                </div>
+                <div class="textbox">
+                    <input id="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <div class="check-error">
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator"/>
+                </a>
+                <a href="https://validator.w3.org/check/referer">
+                    <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
