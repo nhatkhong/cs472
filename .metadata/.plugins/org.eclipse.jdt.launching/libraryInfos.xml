@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="E:\1MIT\MIU\CS401_MPP\eclipse\jre" version="1.8.0_201">
+<bootpath>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\resources.jar"/>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\rt.jar"/>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\sunrsasign.jar"/>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\jsse.jar"/>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\jce.jar"/>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\charsets.jar"/>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\jfr.jar"/>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\1MIT\MIU\CS401_MPP\eclipse\jre\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

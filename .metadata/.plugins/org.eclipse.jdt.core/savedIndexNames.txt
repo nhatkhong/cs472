@@ -1,0 +1,22 @@
+INDEX VERSION 1.130+E:\1MIT\MIU\CS472-WebApplicationProgramming\3. labs\cs472\.metadata\.plugins\org.eclipse.jdt.core
+3187755861.index
+3854685015.index
+2872944415.index
+1462416435.index
+1315127189.index
+3041208354.index
+3350714732.index
+753394490.index
+406957845.index
+4258358444.index
+1948855602.index
+568750085.index
+2596802887.index
+2785272800.index
+4047315448.index
+3470929914.index
+1277891127.index
+3716026143.index
+2145173133.index
+166775330.index
+2100502178.index
