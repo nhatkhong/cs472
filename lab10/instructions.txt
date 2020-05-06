@@ -1,0 +1,26 @@
+Part 1:
+
+In this Part 1 of the lab/homework assignment, we will aim to create, deploy and run Java Servlet on a Web Container. To accomplish this, do the following:
+
+1. If you have not already done it, Setup your Java Servlet development environment - including Java JDK, a Java EE IDE and a Web Container. Feel free to choose from the following options (Java EE IDE - Eclipse for Java EE or Netbeans or IntelliJIDEA etc, Web/Servlet container - Apache Tomcat or Jetty or Glassfish etc.)
+
+2. Create a simple Servlet named HelloServlet, that when invoked with a GET or POST HttpRequest from a browser, will present an HTML webpage with the message, "Hello Java Servlet 4.0".
+
+3. Deploy your Java Web application containing your HelloServlet to your web/servlet container.
+
+4. Run your Java web application using a browser and invoke the HelloServlet by entering the URL which you set for it - e.g. http://yourHostNameOrAddress:portNumber/yourWebApplicationName/yourHelloServletURL.
+
+Part 2:
+1) Write a servlet that creates an HTML webpage  for a "Contact Us" Form, which has a simple web form with the following data input fields: Name, Gender, Category, Message. Gender should be a radio button element, while Category should a drop-down list with the 3 items: Feedback, Inquiry, Complaint.
+
+2) Your "Contact Us" page should submit the form  (using an Http POST request) to another servlet that checks if any data field is missing required data. If it is, your receiving/processing servlet should display the original form again (using forward) and showing a message of the missed fields i.e. Like a data validation failed error messages.
+
+You can use request.setAttribute("msg", "your msg") in the servlet that is processing the input, before forwarding, and then check in the servlet that makes the form with request.getAttribute("msg") to see if a message is there.
+
+If the form does not have any missing fields redirect the user to a "Thank You" page (another servlet), showing data received from all fields along with the current Date (redirect with data means putting data into the URL).
+
+3) Your Web pages should have a "Hit Counter" displayed at the bottom of every page showing total number of hits (also known as, visits) on a particular page of your website (Use the HttpServlet.init() method)
+
+4) Using Filters create another "Hit Counter" for the entire Website (total number of hits for your whole website) - Display the counter in the console (use System.out).
+
+5) After you finish, package your project as a Web Archive (WAR) file or just a ZIP and upload it to Sakai.

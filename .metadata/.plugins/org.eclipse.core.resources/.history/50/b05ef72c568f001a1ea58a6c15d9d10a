@@ -104,12 +104,12 @@ public class ContactUsServlet extends HttpServlet {
 				"							<label>*Gender:</label><br>\r\n" +
 				"                            <div class=\"form-group\">\r\n" +
 				"                                <div class=\"custom-control custom-radio custom-control-inline\">\r\n" +
-				"                                    <input type=\"radio\" name=\"radioGender\" id=\"radioGenderMale\" class=\"custom-control-input\" value=\"Male\">\r\n" +
-				"                                    <label for=\"radioGenderMale\" class=\"custom-control-label\">Male</label>\r\n" +
+				"                                    <input type=\"radio\" name=\"radioGender\" id=\"radioradioGenderMale\" class=\"custom-control-input\" value=\"Male\">\r\n" +
+				"                                    <label for=\"radioradioGenderMale\" class=\"custom-control-label\">Male</label>\r\n" +
 				"                                </div>\r\n" +
 				"                                <div class=\"custom-control custom-radio custom-control-inline\">\r\n" +
-				"                                    <input type=\"radio\" name=\"radioGender\" id=\"radioGenderFemale\" class=\"custom-control-input\" value=\"Female\">\r\n" +
-				"                                    <label for=\"radioGenderFemale\" class=\"custom-control-label\">Female</label>\r\n" +
+				"                                    <input type=\"radio\" name=\"radioGender\" id=\"radioradioGenderFemale\" class=\"custom-control-input\" value=\"Female\">\r\n" +
+				"                                    <label for=\"radioradioGenderFemale\" class=\"custom-control-label\">Female</label>\r\n" +
 				"                                </div>\r\n" +
 				"                            </div>\r\n" +
 				"                        </div>\r\n" +
@@ -118,7 +118,7 @@ public class ContactUsServlet extends HttpServlet {
 				"					<div class=\"row\">\r\n" +
 				"                        <div class=\"col-md-12\">\r\n" +
 				"                            <div class=\"form-group\">\r\n" +
-				"                                <label for=\"category\">*Category:</label>\r\n" +
+				"                                <label for=\"ddlCategory\">*Category:</label>\r\n" +
 				"                                <select class=\"form-control\" id=\"category\" name=\"category\">\r\n" +
 				"								 	 <option value=\"\">Select...</option>\r\n" +
 				"                                    <option value=\"Feedback\">Feedback</option>\r\n" +
@@ -148,10 +148,10 @@ public class ContactUsServlet extends HttpServlet {
 				"					\r\n" +
 				"					<div class=\"row\">\r\n" +
 				"						<div class=\"col-md-6\">\r\n" +
-				"							<span>Hit count for the page: </span><span>" + this.getServletContext().getAttribute("hitCount") + "</span>\r\n" +
+				"							<span>Hit count for the page:</span><span>" + this.getServletContext().getAttribute("hitCount") + "</span>\r\n" +
 				"						</div>\r\n" +
 				"						<div class=\"col-md-6\">\r\n" +
-				"							<span class=\"span_style\">" + request.getServletContext().getAttribute("totalHitCount") + "</span><span class=\"span_style\">Total Hit count for the entire WebApp: </span>\r\n" +
+				"							<span class=\"span_style\">" + request.getServletContext().getAttribute("totalHitCount") + "</span><span class=\"span_style\">Total Hit count for the entire WebApp:</span>\r\n" +
 				"						</div>\r\n" +
 				"					</div>\r\n" +
 				"                </fieldset>\r\n" +
@@ -161,7 +161,7 @@ public class ContactUsServlet extends HttpServlet {
 				"	\r\n" +
 				"	<footer>\r\n" +
 				"        <div>\r\n" +
-				"            <span style=\"margin-left: 1em;\">Van Nhat Khong ::: CS472-WAP</span>\r\n" +
+				"            <span style=\"margin-left: 1em;\">Elly Businge ::: CS472-WAP</span>\r\n" +
 				"            <span style=\"float: right;margin-right: 1em;\">&copy; May 2020</span>\r\n" +
 				"        </div>\r\n" +
 				"    </footer>\r\n" +

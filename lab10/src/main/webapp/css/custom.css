@@ -4,14 +4,14 @@ body {
 }
 
 .nav_style {
-	background-color: deepskyblue !important;
+	background-color: blue !important;
 	margin-bottom: 0px !important;
 }
 
 .btn_search {
 	color: white !important;
-    border-color: black !important;
-    background-color: black !important;
+    border-color: grey !important;
+    background-color: grey !important;
 }
 
 footer {

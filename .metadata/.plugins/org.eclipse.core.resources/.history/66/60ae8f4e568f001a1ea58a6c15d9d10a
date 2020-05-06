@@ -44,7 +44,7 @@ public class SuccessServlet extends HttpServlet {
 				"    \r\n" +
 				"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n" +
 				"    <meta name=\"description\" content=\"\">\r\n" +
-				"    <meta name=\"author\" content=\"Van Nhat Khong\">\r\n" +
+				"    <meta name=\"author\" content=\"Elly Businge\">\r\n" +
 				"	<link type=\"text/css\" rel=\"shortcut icon\" href=\"images/favicon.ico\"/>\r\n" +
 				"\r\n" +
 				"    <title>Lab10 - Part 2</title>\r\n" +

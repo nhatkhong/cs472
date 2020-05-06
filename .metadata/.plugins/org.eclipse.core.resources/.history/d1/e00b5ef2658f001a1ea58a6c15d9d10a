@@ -40,17 +40,14 @@ public class DataHandlerServlet extends HttpServlet {
 
 		if (gender.isPresent() && !gender.get().isEmpty()) {} else {
 			errorMessages.append("<p class=\"error_msg\">Gender is missing.</p>");
-			hasErrors = true;
 		}
 
 		if (category.isPresent() && !category.get().isEmpty()) {} else {
 			errorMessages.append("<p class=\"error_msg\">Category is missing.</p>");
-			hasErrors = true;
 		}
 
 		if (message.isPresent() && !message.get().isEmpty()) {} else {
 			errorMessages.append("<p class=\"error_msg\">Message is missing.</p>");
-			hasErrors = true;
 		}
 
 		if (hasErrors) {
