@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\1MIT\MIU\CS472-WebApplicationProgramming\3. labs\cs472\lab10"/>
+			<item value="E:\1MIT\MIU\CS472-WebApplicationProgramming\3. labs\cs472\Lab10"/>
+			<item value="C:\Users\Gemi\Downloads\EllyBusinge.github.io-master\lab10\Lab10"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

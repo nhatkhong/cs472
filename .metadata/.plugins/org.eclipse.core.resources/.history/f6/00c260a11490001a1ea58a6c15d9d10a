@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Van Nhat Khong">
+	<link type="text/css" rel="shortcut icon" href="images/favicon.ico"/>
+
+    <title>Lab10 - Part 2</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body cz-shortcut-listen="true">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 nav_style">
+      <a class="navbar-brand" href="#">CS472-WAP ::: Lab10</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <main role="main" class="container">
+		<p class="date_style">Wednesday, 06 May 2020</p>
+		<div class="card card_style">
+			<div class="card-header">
+				<h4>Thank you! Your message has been received as follows:</h4>
+			</div>
+			<div class="card-body">
+				<h6>Name: + session.getAttribute("fullName") + </h6>
+				<p>Gender: + session.getAttribute("gender") + </p>
+				<p>Category: + session.getAttribute("category") + </p>
+				<p class="card-text">Message: + session.getAttribute("message") + </p>
+				<p class="card-text">Please feel free to <a href="contactUs">Contact us</a> again</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+							<span>Hit count for the page:</span><span>1</span>
+			</div>
+			<div class="col-md-6">
+				<span class="span_style">24</span><span class="span_style">Total Hit count for the entire WebApp:</span>
+			</div>
+		</div>
+    </main>
+
+	<footer>
+        <div>
+            <span style="margin-left: 1em;">Van Nhat Khong ::: CS472-WAP</span>
+            <span style="float: right;margin-right: 1em;">&copy; May 2020</span>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js.download"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body></html>
