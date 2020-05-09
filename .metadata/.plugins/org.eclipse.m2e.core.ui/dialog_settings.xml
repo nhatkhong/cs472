@@ -25,4 +25,19 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="group"/>
+			<item value="lab14"/>
+		</list>
+		<list key="name">
+			<item value="lab14"/>
+		</list>
+		<list key="artifactId">
+			<item value="lab14"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 </section>
