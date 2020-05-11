@@ -16,8 +16,32 @@
         <description>
             Prints the current DateTime, formatted and styled with the specified color and font-size.
         </description>
-        <name>currDateTime</name>
-        <tag-class>edu.miu.cs.cs472.lesson14.customTags.CurrentDateTimeTag</tag-class>
+        <name>currDate</name>
+        <tag-class>edu.miu.cs.cs472.lesson14.customTags.CurrentDateTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>
+                String representing the foreground color to use to style the current DateTime value to be printed.
+            </description>
+            <name>theColor</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>
+                String representing the font-size to use to style the current DateTime to be printed.
+            </description>
+            <name>theSize</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <description>
+            Prints the current DateTime, formatted and styled with the specified color and font-size.
+        </description>
+        <name>currTime</name>
+        <tag-class>edu.miu.cs.cs472.lesson14.customTags.CurrentTimeTag</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <description>

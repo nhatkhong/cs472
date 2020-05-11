@@ -14,7 +14,9 @@
 </head>
 <body>
     <h1>Welcome to my lab 14 solution</h1>
-        The current date/time on this server is: <ct:currDateTime theColor='blue' theSize='300px'/>
+    <p>The current date/time on this server is:
+        <ct:currDate theColor='blue' theSize='200px'/> at
+        <ct:currTime theColor='red' theSize='800px'/>
     </p>
 </body>
 </html>

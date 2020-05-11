@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.edu.backend.repository.UserProfileRepository"/>
+<fullyQualifiedTypeName name="com.edu.backend.model.UserProfile"/>
+<fullyQualifiedTypeName name="com.edu.backend.repository.TechnologyRepository"/>
+<fullyQualifiedTypeName name="com.edu.backend.model.Technology"/>
+<fullyQualifiedTypeName name="com.edu.backend.repository.JobRepository"/>
+<fullyQualifiedTypeName name="com.edu.backend.model.Job"/>
+<fullyQualifiedTypeName name="com.edu.backend.repository.SkillRepository"/>
+<fullyQualifiedTypeName name="com.edu.backend.model.Skill"/>
 </qualifiedTypeNameHistroy>
